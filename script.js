@@ -1,3 +1,26 @@
+//const allButtons = document.getElementsByTagName("button")
+const primaryButton = document.getElementById("primaryButton")
+const allButtons = document.querySelectorAll("button")
+
+allButtons[0].innerText = "Hello"
+console.log(allButtons)
+
+// function clicked(){
+//     alert('Nu har vi klickat')
+// }
+
+// const thefunc = function(){
+//     alert("Nu har vi klickat")
+// };
+
+
+
+//primaryButton.addEventListener("click", clicked);
+primaryButton.addEventListener("click", function(){
+    alert("Nu tar vi rast")
+});
+
+
 // console.log('adsdsa')
 
 // // STATUS FRÅGOR sen senast?
